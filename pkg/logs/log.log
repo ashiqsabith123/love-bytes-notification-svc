@@ -1,0 +1,12 @@
+General Logger:	2024/01/26 16:59:59 logger.go:29: 
+
+
+Application restarted ---------
+General Logger:	2024/01/26 16:59:59 database.go:30: Database connected succesfully....
+General Logger:	2024/01/26 16:59:59 main.go:36: Notification Svc connected on :50053
+General Logger:	2024/01/26 17:49:48 logger.go:29: 
+
+
+Application restarted ---------
+General Logger:	2024/01/26 17:49:48 database.go:30: Database connected succesfully....
+General Logger:	2024/01/26 17:49:48 main.go:36: Notification Svc connected on :50053

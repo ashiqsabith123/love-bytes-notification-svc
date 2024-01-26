@@ -19,10 +19,11 @@ require (
 )
 
 require (
-	github.com/ashiqsabith123/love-bytes-proto v0.0.0-20240126085637-781d74ad9b5f
+	github.com/ashiqsabith123/love-bytes-proto v0.0.0-20240126104141-0e95c68964d3
 	github.com/fsnotify/fsnotify v1.7.0 // indirect
 	github.com/google/wire v0.5.0
 	github.com/hashicorp/hcl v1.0.0 // indirect
+	github.com/jinzhu/copier v0.4.0
 	github.com/magiconair/properties v1.8.7 // indirect
 	github.com/mitchellh/mapstructure v1.5.0 // indirect
 	github.com/pelletier/go-toml/v2 v2.1.0 // indirect

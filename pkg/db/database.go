@@ -5,6 +5,7 @@ import (
 
 	logs "github.com/ashiqsabith123/love-bytes-proto/log"
 	"github.com/ashiqsabith123/notification-svc/pkg/config"
+	"github.com/ashiqsabith123/notification-svc/pkg/domain"
 	"gorm.io/driver/postgres"
 	"gorm.io/gorm"
 )
@@ -18,7 +19,9 @@ func ConnectToDatabase(config config.Config) *gorm.DB {
 		return nil
 	}
 
-	err = db.AutoMigrate()
+	err = db.AutoMigrate(
+		domain.Notifications{},
+	)
 
 	if err != nil {
 		logs.ErrLog.Fatalln(err)
