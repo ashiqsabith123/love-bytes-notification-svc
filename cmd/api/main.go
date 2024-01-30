@@ -11,14 +11,15 @@ import (
 )
 
 func main() {
+
+	err := logs.InitLogger("./pkg/logs/log.log")
+	if err != nil {
+		logs.ErrLog.Fatalln("Error while initilizing logger", err)
+	}
+	
 	config, err := config.LoadConfig()
 	if err != nil {
 		logs.ErrLog.Fatal("Error while loading config", err)
-	}
-
-	err = logs.InitLogger("./pkg/logs/log.log")
-	if err != nil {
-		logs.ErrLog.Fatalln("Error while initilizing logger", err)
 	}
 
 	service := di.IntializeService(config)

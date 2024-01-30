@@ -21,6 +21,7 @@ func ConnectToDatabase(config config.Config) *gorm.DB {
 
 	err = db.AutoMigrate(
 		domain.Notifications{},
+		domain.FcmTokens{},
 	)
 
 	if err != nil {

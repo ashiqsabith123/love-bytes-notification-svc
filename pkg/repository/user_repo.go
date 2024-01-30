@@ -24,3 +24,21 @@ func (U *UserRepo) CreateNotification(data domain.Notifications) error {
 
 	return nil
 }
+
+func (U *UserRepo) GetAllNotification(query string) (notifications []domain.Notifications, err error) {
+
+	if err = U.Postgres.Raw(query).Scan(&notifications).Error; err != nil {
+		return notifications, err
+	}
+
+	return notifications, nil
+}
+
+func (U *UserRepo) SaveFCMTokens(token domain.FcmTokens) error {
+	
+	if err := U.Postgres.Create(&token).Error; err != nil {
+		return err
+	}
+
+	return nil
+}
