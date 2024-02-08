@@ -40,36 +40,28 @@ func NewFirebaseApp(config config.Config) interfaces.Utils {
 func (U *Utils) SendNotification(name, message, token, image string) {
 	fcmClient, err := U.firebaseApp.Messaging(context.Background())
 
-	fmt.Println("https://love-bites-bucket.s3.us-east-2.amazonaws.com/" + image + ".jpeg")
-
 	if err != nil {
-		logs.ErrLog.Fatal(err)
+		logs.ErrLog.Println(err)
+		return
 	}
 
-	response, err := fcmClient.Send(context.Background(), &messaging.Message{
+	_, err = fcmClient.Send(context.Background(), &messaging.Message{
 
 		Android: &messaging.AndroidConfig{
 
 			Notification: &messaging.AndroidNotification{
-
-				Title:    name,
-				Body:     message,
-				ImageURL: "https://love-bites-bucket.s3.us-east-2.amazonaws.com/" + image + ".jpeg",
+				Icon:  "https://love-bites-bucket.s3.us-east-2.amazonaws.com/" + image + ".jpeg",
+				Color: "#FF5733",
+				Title: name,
+				Body:  message,
 			},
 		},
 
-		// Notification: &messaging.Notification{
-
-		// 	Title:    name,
-		// 	Body:     message,
-		// 	ImageURL: "https://love-bites-bucket.s3.us-east-2.amazonaws.com/" + image + ".jpeg",
-		// },
-		Token: "f-AahZaTTrmJpGfQa08HOZ:APA91bFZAOIwzZdBrdi5inx9wu5r6IZ-z7ahfygXqMA7Xy5glAU2f0lpGs3Uuigtq3powncf0KHlVPHXMvVAKbERKaip-gOOS72k4-hP1-jICSyRJVe-ozvla42aQJuP4W-SIyRydJlC", // it's a single device token
+		Token: token,
 	})
 
 	if err != nil {
-		fmt.Println(err)
+		logs.ErrLog.Println(err)
 	}
 
-	fmt.Println(response)
 }

@@ -318,3 +318,238 @@ General Logger:	2024/01/30 11:05:14 logger.go:29:
 Application restarted ---------
 General Logger:	2024/01/30 11:05:14 database.go:30: Database connected succesfully....
 General Logger:	2024/01/30 11:05:14 main.go:37: Notification Svc connected on :50053
+General Logger:	2024/01/30 12:34:52 logger.go:29: 
+
+
+Application restarted ---------
+General Logger:	2024/01/30 12:34:52 database.go:31: Database connected succesfully....
+General Logger:	2024/01/30 12:34:52 main.go:37: Notification Svc connected on :50053
+General Logger:	2024/01/30 12:50:01 logger.go:29: 
+
+
+Application restarted ---------
+General Logger:	2024/01/30 12:50:01 database.go:31: Database connected succesfully....
+General Logger:	2024/01/30 12:50:01 main.go:37: Notification Svc connected on :50053
+General Logger:	2024/01/30 13:18:50 logger.go:29: 
+
+
+Application restarted ---------
+General Logger:	2024/01/30 13:18:51 database.go:31: Database connected succesfully....
+General Logger:	2024/01/30 13:18:51 main.go:37: Notification Svc connected on :50053
+General Logger:	2024/01/30 13:23:03 logger.go:29: 
+
+
+Application restarted ---------
+General Logger:	2024/01/30 13:23:03 database.go:31: Database connected succesfully....
+General Logger:	2024/01/30 13:23:03 main.go:37: Notification Svc connected on :50053
+General Logger:	2024/01/30 13:32:49 logger.go:29: 
+
+
+Application restarted ---------
+General Logger:	2024/01/30 13:32:49 database.go:31: Database connected succesfully....
+General Logger:	2024/01/30 13:32:49 main.go:37: Notification Svc connected on :50053
+General Logger:	2024/01/30 14:21:18 logger.go:29: 
+
+
+Application restarted ---------
+General Logger:	2024/01/30 14:21:18 database.go:31: Database connected succesfully....
+General Logger:	2024/01/30 14:21:18 main.go:37: Notification Svc connected on :50053
+General Logger:	2024/01/31 10:17:11 logger.go:29: 
+
+
+Application restarted ---------
+General Logger:	2024/01/31 10:17:11 database.go:31: Database connected succesfully....
+General Logger:	2024/01/31 10:17:11 main.go:37: Notification Svc connected on :50053
+General Logger:	2024/01/31 10:39:27 logger.go:29: 
+
+
+Application restarted ---------
+General Logger:	2024/01/31 10:39:27 database.go:31: Database connected succesfully....
+General Logger:	2024/01/31 10:39:27 main.go:37: Notification Svc connected on :50053
+Error Logger:	2024/01/31 10:46:56 firebase.go:64: exactly one of token, topic or condition must be specified
+Error Logger:	2024/01/31 10:47:21 firebase.go:64: exactly one of token, topic or condition must be specified
+Error Logger:	2024/01/31 10:48:18 firebase.go:64: exactly one of token, topic or condition must be specified
+Error Logger:	2024/01/31 10:51:53 firebase.go:64: exactly one of token, topic or condition must be specified
+Error Logger:	2024/01/31 10:52:10 firebase.go:64: exactly one of token, topic or condition must be specified
+Error Logger:	2024/01/31 10:56:17 firebase.go:64: exactly one of token, topic or condition must be specified
+Error Logger:	2024/01/31 11:04:01 firebase.go:64: exactly one of token, topic or condition must be specified
+Error Logger:	2024/01/31 11:05:01 firebase.go:64: exactly one of token, topic or condition must be specified
+General Logger:	2024/01/31 12:01:13 logger.go:29: 
+
+
+Application restarted ---------
+General Logger:	2024/01/31 12:01:14 database.go:31: Database connected succesfully....
+General Logger:	2024/01/31 12:01:14 main.go:37: Notification Svc connected on :50053
+General Logger:	2024/01/31 12:13:51 logger.go:29: 
+
+
+Application restarted ---------
+General Logger:	2024/01/31 12:13:51 database.go:31: Database connected succesfully....
+General Logger:	2024/01/31 12:13:51 main.go:37: Notification Svc connected on :50053
+General Logger:	2024/01/31 12:14:07 logger.go:29: 
+
+
+Application restarted ---------
+General Logger:	2024/01/31 12:14:08 database.go:31: Database connected succesfully....
+General Logger:	2024/01/31 12:14:08 main.go:37: Notification Svc connected on :50053
+General Logger:	2024/01/31 12:15:08 logger.go:29: 
+
+
+Application restarted ---------
+General Logger:	2024/01/31 12:15:08 database.go:31: Database connected succesfully....
+General Logger:	2024/01/31 12:15:08 main.go:37: Notification Svc connected on :50053
+General Logger:	2024/01/31 12:15:51 logger.go:29: 
+
+
+Application restarted ---------
+General Logger:	2024/01/31 12:15:51 database.go:31: Database connected succesfully....
+General Logger:	2024/01/31 12:15:51 main.go:37: Notification Svc connected on :50053
+General Logger:	2024/01/31 12:17:26 logger.go:29: 
+
+
+Application restarted ---------
+General Logger:	2024/01/31 12:17:27 database.go:31: Database connected succesfully....
+General Logger:	2024/01/31 12:17:27 main.go:37: Notification Svc connected on :50053
+Error Logger:	2024/01/31 12:27:42 firebase.go:67: exactly one of token, topic or condition must be specified
+Error Logger:	2024/01/31 12:27:45 firebase.go:67: exactly one of token, topic or condition must be specified
+General Logger:	2024/01/31 12:57:43 logger.go:29: 
+
+
+Application restarted ---------
+General Logger:	2024/01/31 12:57:43 database.go:31: Database connected succesfully....
+General Logger:	2024/01/31 12:57:43 main.go:37: Notification Svc connected on :50053
+General Logger:	2024/01/31 12:59:01 logger.go:29: 
+
+
+Application restarted ---------
+General Logger:	2024/01/31 12:59:01 database.go:31: Database connected succesfully....
+General Logger:	2024/01/31 12:59:01 main.go:37: Notification Svc connected on :50053
+Error Logger:	2024/01/31 13:02:33 firebase.go:64: exactly one of token, topic or condition must be specified
+General Logger:	2024/01/31 13:06:18 logger.go:29: 
+
+
+Application restarted ---------
+General Logger:	2024/01/31 13:06:18 database.go:31: Database connected succesfully....
+General Logger:	2024/01/31 13:06:18 main.go:37: Notification Svc connected on :50053
+Error Logger:	2024/01/31 13:06:38 firebase.go:64: exactly one of token, topic or condition must be specified
+General Logger:	2024/01/31 13:07:44 logger.go:29: 
+
+
+Application restarted ---------
+General Logger:	2024/01/31 13:07:44 database.go:31: Database connected succesfully....
+General Logger:	2024/01/31 13:07:44 main.go:37: Notification Svc connected on :50053
+Error Logger:	2024/01/31 13:07:58 firebase.go:64: exactly one of token, topic or condition must be specified
+General Logger:	2024/01/31 13:09:00 logger.go:29: 
+
+
+Application restarted ---------
+General Logger:	2024/01/31 13:09:00 database.go:31: Database connected succesfully....
+General Logger:	2024/01/31 13:09:00 main.go:37: Notification Svc connected on :50053
+Error Logger:	2024/01/31 13:09:04 firebase.go:64: exactly one of token, topic or condition must be specified
+Error Logger:	2024/01/31 13:09:52 firebase.go:64: exactly one of token, topic or condition must be specified
+Error Logger:	2024/01/31 13:10:34 firebase.go:64: exactly one of token, topic or condition must be specified
+Error Logger:	2024/01/31 13:11:24 firebase.go:64: exactly one of token, topic or condition must be specified
+General Logger:	2024/01/31 13:13:46 logger.go:29: 
+
+
+Application restarted ---------
+General Logger:	2024/01/31 13:13:46 database.go:31: Database connected succesfully....
+General Logger:	2024/01/31 13:13:46 main.go:37: Notification Svc connected on :50053
+General Logger:	2024/01/31 13:15:14 logger.go:29: 
+
+
+Application restarted ---------
+General Logger:	2024/01/31 13:15:14 database.go:31: Database connected succesfully....
+General Logger:	2024/01/31 13:15:14 main.go:37: Notification Svc connected on :50053
+Error Logger:	2024/01/31 13:17:01 firebase.go:64: exactly one of token, topic or condition must be specified
+General Logger:	2024/01/31 13:19:21 logger.go:29: 
+
+
+Application restarted ---------
+General Logger:	2024/01/31 13:19:21 database.go:31: Database connected succesfully....
+General Logger:	2024/01/31 13:19:21 main.go:37: Notification Svc connected on :50053
+Error Logger:	2024/01/31 13:19:24 firebase.go:64: exactly one of token, topic or condition must be specified
+General Logger:	2024/01/31 13:21:39 logger.go:29: 
+
+
+Application restarted ---------
+General Logger:	2024/01/31 13:21:39 database.go:31: Database connected succesfully....
+General Logger:	2024/01/31 13:21:39 main.go:37: Notification Svc connected on :50053
+Error Logger:	2024/01/31 13:21:43 firebase.go:64: exactly one of token, topic or condition must be specified
+Error Logger:	2024/01/31 13:22:01 firebase.go:64: exactly one of token, topic or condition must be specified
+General Logger:	2024/01/31 13:23:24 logger.go:29: 
+
+
+Application restarted ---------
+General Logger:	2024/01/31 13:23:24 database.go:31: Database connected succesfully....
+General Logger:	2024/01/31 13:23:24 main.go:37: Notification Svc connected on :50053
+General Logger:	2024/01/31 13:35:43 logger.go:29: 
+
+
+Application restarted ---------
+General Logger:	2024/01/31 13:35:43 database.go:31: Database connected succesfully....
+General Logger:	2024/01/31 13:35:43 main.go:37: Notification Svc connected on :50053
+General Logger:	2024/01/31 13:37:54 logger.go:29: 
+
+
+Application restarted ---------
+General Logger:	2024/01/31 13:37:54 database.go:31: Database connected succesfully....
+General Logger:	2024/01/31 13:37:54 main.go:37: Notification Svc connected on :50053
+Error Logger:	2024/01/31 14:26:21 firebase.go:64: exactly one of token, topic or condition must be specified
+Error Logger:	2024/01/31 15:04:45 firebase.go:64: exactly one of token, topic or condition must be specified
+Error Logger:	2024/01/31 15:21:59 firebase.go:64: exactly one of token, topic or condition must be specified
+Error Logger:	2024/01/31 15:22:02 firebase.go:64: exactly one of token, topic or condition must be specified
+Error Logger:	2024/01/31 15:22:05 firebase.go:64: exactly one of token, topic or condition must be specified
+Error Logger:	2024/01/31 15:22:08 firebase.go:64: exactly one of token, topic or condition must be specified
+General Logger:	2024/01/31 17:35:16 logger.go:29: 
+
+
+Application restarted ---------
+General Logger:	2024/01/31 17:35:16 database.go:31: Database connected succesfully....
+General Logger:	2024/01/31 17:35:16 main.go:37: Notification Svc connected on :50053
+Error Logger:	2024/01/31 17:35:23 firebase.go:64: exactly one of token, topic or condition must be specified
+Error Logger:	2024/01/31 17:35:29 firebase.go:64: exactly one of token, topic or condition must be specified
+Error Logger:	2024/01/31 17:55:49 firebase.go:64: exactly one of token, topic or condition must be specified
+Error Logger:	2024/01/31 17:55:58 firebase.go:64: exactly one of token, topic or condition must be specified
+Error Logger:	2024/01/31 17:56:09 firebase.go:64: exactly one of token, topic or condition must be specified
+Error Logger:	2024/01/31 17:56:47 firebase.go:64: exactly one of token, topic or condition must be specified
+General Logger:	2024/02/01 09:29:40 logger.go:29: 
+
+
+Application restarted ---------
+General Logger:	2024/02/01 09:29:40 database.go:31: Database connected succesfully....
+General Logger:	2024/02/01 09:29:40 main.go:37: Notification Svc connected on :50053
+General Logger:	2024/02/01 11:12:40 logger.go:29: 
+
+
+Application restarted ---------
+General Logger:	2024/02/01 11:12:41 database.go:31: Database connected succesfully....
+General Logger:	2024/02/01 11:12:41 main.go:37: Notification Svc connected on :50053
+Error Logger:	2024/02/01 11:17:01 firebase.go:64: exactly one of token, topic or condition must be specified
+Error Logger:	2024/02/01 11:17:07 firebase.go:64: exactly one of token, topic or condition must be specified
+Error Logger:	2024/02/01 11:17:10 firebase.go:64: exactly one of token, topic or condition must be specified
+Error Logger:	2024/02/01 11:17:14 firebase.go:64: exactly one of token, topic or condition must be specified
+Error Logger:	2024/02/01 11:17:19 firebase.go:64: exactly one of token, topic or condition must be specified
+Error Logger:	2024/02/01 11:17:24 firebase.go:64: exactly one of token, topic or condition must be specified
+Error Logger:	2024/02/01 11:17:37 firebase.go:64: exactly one of token, topic or condition must be specified
+Error Logger:	2024/02/01 11:17:57 firebase.go:64: exactly one of token, topic or condition must be specified
+Error Logger:	2024/02/01 11:37:14 firebase.go:64: exactly one of token, topic or condition must be specified
+Error Logger:	2024/02/01 11:37:50 firebase.go:64: exactly one of token, topic or condition must be specified
+General Logger:	2024/02/07 12:15:10 logger.go:29: 
+
+
+Application restarted ---------
+General Logger:	2024/02/07 12:15:10 database.go:31: Database connected succesfully....
+General Logger:	2024/02/07 12:15:10 main.go:37: Notification Svc connected on :50053
+Error Logger:	2024/02/07 12:17:44 firebase.go:64: exactly one of token, topic or condition must be specified
+Error Logger:	2024/02/07 12:21:57 firebase.go:64: exactly one of token, topic or condition must be specified
+Error Logger:	2024/02/07 12:24:53 firebase.go:64: exactly one of token, topic or condition must be specified
+Error Logger:	2024/02/07 12:25:21 firebase.go:64: exactly one of token, topic or condition must be specified
+Error Logger:	2024/02/07 12:25:58 firebase.go:64: exactly one of token, topic or condition must be specified
+Error Logger:	2024/02/07 12:33:11 firebase.go:64: exactly one of token, topic or condition must be specified
+Error Logger:	2024/02/07 12:34:23 firebase.go:64: exactly one of token, topic or condition must be specified
+Error Logger:	2024/02/07 12:35:25 firebase.go:64: exactly one of token, topic or condition must be specified
+Error Logger:	2024/02/07 12:36:57 firebase.go:64: exactly one of token, topic or condition must be specified
+Error Logger:	2024/02/07 12:40:40 firebase.go:64: exactly one of token, topic or condition must be specified
+Error Logger:	2024/02/07 12:43:18 firebase.go:64: exactly one of token, topic or condition must be specified
+Error Logger:	2024/02/07 12:44:23 firebase.go:64: exactly one of token, topic or condition must be specified

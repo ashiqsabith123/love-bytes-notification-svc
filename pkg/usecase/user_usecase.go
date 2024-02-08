@@ -26,9 +26,53 @@ func (U *UserUsecase) CreateNotification(req *pb.Notification) error {
 	var notification domain.Notifications
 
 	copier.Copy(&notification, &req)
-	U.Utils.SendNotification(notification.Name, "Send you an interest request", "", notification.Image)
+
+	fmt.Println(req)
+
+	message := ""
+
+	if req.Type == "IR" {
+		if req.Status == "P" {
+			message = "Send you an interest request"
+		}
+
+		if req.Status == "A" {
+			message = "Accepted your interest request"
+		}
+
+		if req.Status == "S" || req.Status == "D" {
+			fmt.Println(req.CommonID)
+			err := U.UserRepo.UpdateNotificationStatus(int(req.CommonID), req.Status)
+
+			if err != nil {
+				fmt.Println(err)
+			}
+			notification.CommonID = 0
+			notification.Status = "A"
+
+			fmt.Println("here")
+
+		}
+
+	}
+
+	if req.Status == "D" {
+		return nil
+	}
 
 	err := U.UserRepo.CreateNotification(notification)
+
+	if err != nil {
+		return err
+	}
+
+	token, err := U.UserRepo.GetFCMToken(int(notification.ReceiverID))
+
+	if err != nil {
+		return err
+	}
+
+	U.Utils.SendNotification(notification.Name, message, token, notification.Image)
 
 	if err != nil {
 		return err
@@ -64,9 +108,12 @@ func (U *UserUsecase) GetAllNotifications(req *pb.GetNotificationRequest) ([]dom
 
 }
 
-func (U *UserUsecase) SaveFCMTokens() error {
+func (U *UserUsecase) SaveFCMTokens(tokenData *pb.FCMTokenRequest) error {
 
 	var token domain.FcmTokens
+
+	copier.Copy(&token, &tokenData)
+
 	if err := U.UserRepo.SaveFCMTokens(token); err != nil {
 		return err
 	}

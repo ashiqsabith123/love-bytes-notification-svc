@@ -41,7 +41,7 @@ require (
 )
 
 require (
-	github.com/ashiqsabith123/love-bytes-proto v0.0.0-20240129094657-d57897526099
+	github.com/ashiqsabith123/love-bytes-proto v0.0.0-20240130064116-27ceaeaed1eb
 	github.com/fsnotify/fsnotify v1.7.0 // indirect
 	github.com/google/wire v0.5.0
 	github.com/hashicorp/hcl v1.0.0 // indirect

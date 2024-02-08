@@ -85,3 +85,24 @@ func (U *UserService) GetAllNotifiacation(ctx context.Context, req *pb.GetNotifi
 	}, nil
 
 }
+
+func (U *UserService) SaveFCMTokens(ctx context.Context, req *pb.FCMTokenRequest) (*pb.NotificationResponce, error) {
+
+	err := U.UserUsecase.SaveFCMTokens(req)
+
+	if err != nil {
+		return &pb.NotificationResponce{
+			Code:    500,
+			Message: "Server error",
+			Error: &anypb.Any{
+				Value: []byte(err.Error()),
+			},
+		}, nil
+	}
+
+	return &pb.NotificationResponce{
+		Code: 201,
+		Message: "FCM token saved succesfully",
+	},nil
+
+}

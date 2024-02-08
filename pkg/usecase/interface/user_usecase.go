@@ -8,4 +8,5 @@ import (
 type UserUsecase interface {
 	CreateNotification(req *pb.Notification) error
 	GetAllNotifications(req *pb.GetNotificationRequest) ([]domain.Notifications, error)
+	SaveFCMTokens(tokenData *pb.FCMTokenRequest) error
 }

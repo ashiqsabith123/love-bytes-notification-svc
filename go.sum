@@ -26,6 +26,10 @@ github.com/ashiqsabith123/love-bytes-proto v0.0.0-20240129050704-abf13e282488 h1
 github.com/ashiqsabith123/love-bytes-proto v0.0.0-20240129050704-abf13e282488/go.mod h1:FbSIbTUQLH9jnl8QRsGjVWEXF/HviIt+l6xM9oXsX7o=
 github.com/ashiqsabith123/love-bytes-proto v0.0.0-20240129094657-d57897526099 h1:pn7R3OarDsd/+o+9S8nVYrFoLqUcPSJAfTMotYGcmWg=
 github.com/ashiqsabith123/love-bytes-proto v0.0.0-20240129094657-d57897526099/go.mod h1:FbSIbTUQLH9jnl8QRsGjVWEXF/HviIt+l6xM9oXsX7o=
+github.com/ashiqsabith123/love-bytes-proto v0.0.0-20240130061630-219d2c52dc9b h1:FlOPM0J9mMlE4Z8rg46KQ5ImR+PyjrH7vQZ6lIldsF8=
+github.com/ashiqsabith123/love-bytes-proto v0.0.0-20240130061630-219d2c52dc9b/go.mod h1:FbSIbTUQLH9jnl8QRsGjVWEXF/HviIt+l6xM9oXsX7o=
+github.com/ashiqsabith123/love-bytes-proto v0.0.0-20240130064116-27ceaeaed1eb h1:23CuX6xW3oHY8g/UUQm2UEM2Qo14tyH9sJcm0+QzaRo=
+github.com/ashiqsabith123/love-bytes-proto v0.0.0-20240130064116-27ceaeaed1eb/go.mod h1:FbSIbTUQLH9jnl8QRsGjVWEXF/HviIt+l6xM9oXsX7o=
 github.com/census-instrumentation/opencensus-proto v0.2.1/go.mod h1:f6KPmirojxKA12rnyqOA5BBL4O983OfeGPqjHWSTneU=
 github.com/client9/misspell v0.3.4/go.mod h1:qj6jICC3Q7zFZvVWo7KLAzC3yx5G7kyvSDkc90ppPyw=
 github.com/cncf/udpa/go v0.0.0-20191209042840-269d4d468f6f/go.mod h1:M8M6+tZqaGXZJjfX53e64911xZQV5JYwmTeXPW+k8Sc=
